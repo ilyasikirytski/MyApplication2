@@ -1,0 +1,18 @@
+package com.example.myapplication2.domain.usecase
+
+import com.example.myapplication2.domain.models.SaveUserNameParam
+import com.example.myapplication2.domain.repository.UserRepository
+
+class SaveUserNameUseCase(private val userRepository: UserRepository) {
+    fun execute(param: SaveUserNameParam): Boolean {
+
+//        val oldUserName = userRepository.getName()
+//
+//        if (oldUserName.firstName == param.name) {
+//            return true
+//        }
+
+        val result: Boolean = userRepository.saveName(saveParam = param)
+        return result
+    }
+}
