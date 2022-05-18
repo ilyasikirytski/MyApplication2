@@ -1,3 +1,3 @@
-package com.example.myapplication2.domain.models
+package com.example.domain.models
 
 class UserName(val firstName: String, val lastName: String)
