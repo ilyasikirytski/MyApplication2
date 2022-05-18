@@ -4,6 +4,8 @@
     <bytecodeTargetLevel target="1.7">
       <module name="MyApplication2.app" target="16" />
       <module name="MyApplication2.data" target="16" />
+      <module name="TestAppCleanArchitecture.app" target="16" />
+      <module name="TestAppCleanArchitecture.data" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
